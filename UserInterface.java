@@ -487,7 +487,7 @@ public class UserInterface {
 				return false;					// First item is not a long
 			}
 		}
-		count = lineNumber;
+		count = lineNumber;						// assigning the number of input lines
 		
 		// Should the execution reach here, the input file appears to be valid
 		errorMessage_FileContents = "";
